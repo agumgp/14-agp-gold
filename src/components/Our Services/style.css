@@ -12,6 +12,7 @@
     padding: 100px 207px 0px 206px;
     gap: 100px;
     background: #FFF;
+    flex: 1;
 }
 
 .service-list {
@@ -52,5 +53,12 @@
     font-weight: 700;
     line-height: 20px; /* 142.857% */
     margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .our-service {
+        display: flex;
+        flex-direction: column;
+    }
 }
 

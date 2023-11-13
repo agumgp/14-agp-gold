@@ -41,3 +41,10 @@
     gap: 16px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .why-us-list-item {
+        display: flex;
+        flex-direction: column;
+    }
+}

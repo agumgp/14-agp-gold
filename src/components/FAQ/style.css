@@ -60,9 +60,9 @@
     border: 1px solid #D4D4D4 !important;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 .faq-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     }
 }
