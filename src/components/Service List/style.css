@@ -1,0 +1,21 @@
+.check-list {
+    display: flex;
+    gap: 16px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+.check-list img {
+    width: 24px;
+    height: 24px;
+}
+
+.check-list p {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 4px;
+}

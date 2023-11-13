@@ -1,0 +1,113 @@
+.main-box-container {
+    position: relative;
+}
+
+.input-box {
+    display: flex;
+    width: 1047px;
+    height: 106px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:  #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    margin: -30px 197px 108px 196px ;
+    z-index: 1;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.input-box .clicked {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-car-button {
+    padding-top: 46px ;
+}
+
+.search-car-button button {
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #5CB85F;
+    border: none;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.car-show {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap ;
+    margin-left: 230px;
+    text-align: center;
+    
+}
+
+.car-list-container img {
+    width: 270px;
+    height: 160px;
+    margin-bottom: 47px;
+}
+
+.car-list-container h1 {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 8px;
+}
+
+.car-list-container h2 {
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.car-list-container p {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    width: 301px;
+    margin-bottom: 24px;
+}
+
+.car-list-container button {
+    height: 48px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #5CB85F;
+    color: #FFF;
+    border: none;
+    width: 261px;
+    height: 32px;
+}
+
+.not-found {
+    text-align: center;
+    margin-left: 250px;
+}

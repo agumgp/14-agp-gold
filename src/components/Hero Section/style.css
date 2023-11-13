@@ -1,0 +1,79 @@
+
+.container-header-bottom {
+    display: flex;
+    padding-top: 38px;
+    padding-left: 136px;
+}
+
+.sewa {
+    color: #000;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 16px;
+    padding-top: 80px;
+    width: 568px;
+}
+
+.welcome {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 16px;
+    width: 468px;
+}
+
+.mulai-button{
+    background: #5CB85F;
+    color: #FFF;
+    border: none;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.header-bot-imgcar {
+    width: 704px;
+    height: 407px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container-header-bottom {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 38px;
+        padding-left: 16px;
+    }
+    
+    .header-bot-sewa {
+        width: 100%; 
+    }
+    
+    .header-bot-imgcar {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+    }
+    
+    .sewa {
+        width: 100%; 
+        padding-top: 0; 
+    }
+    
+    .welcome {
+        width: 100%; 
+    }
+}    

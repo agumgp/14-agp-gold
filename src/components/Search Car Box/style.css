@@ -1,0 +1,36 @@
+.input-box-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 24px 24px;
+    
+}
+
+.box-title {
+    color: #3C3C3C;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; 
+    align-self: stretch;
+    
+}
+
+.box-input {
+    border: none;
+    appearance: none;
+
+}
+
+input {
+    height: 34.5px;
+    cursor: pointer;
+}
+
+select {
+    height: 34.5px;
+    cursor: pointer;
+}
+
+

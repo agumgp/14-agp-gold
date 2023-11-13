@@ -1,0 +1,113 @@
+
+.banner-container {
+    width: 1168px;
+    height: 326px;
+    flex-shrink: 0;
+    margin: auto;
+    background-color: #0D28A6;
+    border-radius: 13px;
+    margin-top: 106px;
+}
+
+.banner-container h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+    padding: 64px 285px 16px 270px
+}
+
+.banner-container p {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    padding: 0px 358px 60px 342px;
+}
+
+.banner-container button {
+    display: inline-flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    margin: 0px 514px 64px 514px;
+    color: #FFFFFF;
+    background-color: #5CB85F;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+.footer-container {
+    display: flex;
+    width: 1141px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 168px 163px 100px 136px;
+    
+}
+
+.left-content p {
+    width: 268px;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    padding-bottom: 16px;
+}
+
+.middle-left-content a {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+
+.middle-right-logo-container {
+    display: flex;
+}
+
+.connect-with-us {
+    width: 268px;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    padding-bottom: 16px;
+}
+
+.middle-right-content img {
+    padding-right: 16px;
+}
+
+.right-content p {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    width: 268px;
+    padding-bottom: 16px;
+}
